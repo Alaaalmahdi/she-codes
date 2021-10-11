@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>She Codes</title>
+        <title>SheCodes-Aboutus</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
@@ -14,7 +14,7 @@
         <style>
             html, body {
                 background-color: #fff;
-                color: #fc93c8;
+                color: #fd79a5;
                 font-family: 'Raleway';
                 font-weight: 100;
                 height: 100vh;
@@ -49,15 +49,7 @@
                 font-size: 70px;
             }
 
-            .links > a {
-                color: #f7aac8;
-                padding: 0 25px;
-                font-size: 12px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
+
 
             .m-b-md {
                 margin-bottom: 30px;
@@ -67,30 +59,21 @@
     <body>
         <div class="flex-center position-ref full-height">
 
-            @if (Route::has('login') && Auth::check())
-                <div class="top-right links">
-                    <a href="{{ url('/home') }}">Dashboard</a>
-                </div>
-            @elseif (Route::has('login') && !Auth::check())
-                <div class="top-right links">
-                    <a href="{{ url('/login') }}">Login</a>
-                    <a href="{{ url('/register') }}">Register</a>
-                </div>
-            @endif
-
             <div class="content">
                 <div class="title m-b-md">
-                    She Codes
-
+                    Abou Us
                 </div>
 
-                <div class="links">
-                    <a href="http://she-codes.test">Home</a>
-                    <a href="http://she-codes.test/about">About us</a>
-                    <a href="http://she-codes.test/contact">Contact Us</a>
+
+                   <div class="links">
+
+                    She Codes is all about building community for networking and bringing tech-women together, to empower each other, and spread the culture of empowering women, from the class room to the boardroom, where we will provide full support, consultancy and training, for women to become independent and advance in their career.
 
                 </div>
             </div>
         </div>
+
+            </div>
     </body>
 </html>
+
